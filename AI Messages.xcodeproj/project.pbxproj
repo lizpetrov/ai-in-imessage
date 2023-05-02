@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		652A51A729FFA8DC001D1E8D /* FriendAIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A51A629FFA8DC001D1E8D /* FriendAIView.swift */; };
+		658AC58129FC6AD700109ACB /* AI_MessagesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658AC58029FC6AD700109ACB /* AI_MessagesApp.swift */; };
+		658AC58329FC6AD700109ACB /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658AC58229FC6AD700109ACB /* MessagesView.swift */; };
+		658AC58529FC6AD900109ACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 658AC58429FC6AD900109ACB /* Assets.xcassets */; };
+		658AC58829FC6AD900109ACB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 658AC58729FC6AD900109ACB /* Preview Assets.xcassets */; };
+		658AC59029FC6B8300109ACB /* Resolver in Frameworks */ = {isa = PBXBuildFile; productRef = 658AC58F29FC6B8300109ACB /* Resolver */; };
+		658AC59329FC6B9800109ACB /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = 658AC59229FC6B9800109ACB /* OpenAISwift */; };
+		658AC59529FC6BD000109ACB /* MessageSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658AC59429FC6BD000109ACB /* MessageSettings.swift */; };
+		658AC59729FC6C1200109ACB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658AC59629FC6C1200109ACB /* Constants.swift */; };
+		658AC59929FC6CE000109ACB /* MessageGod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658AC59829FC6CE000109ACB /* MessageGod.swift */; };
+		658AC59B29FC6EA200109ACB /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658AC59A29FC6EA200109ACB /* MessageView.swift */; };
+		658AC59D29FC7E1800109ACB /* KeyboardAdapt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658AC59C29FC7E1800109ACB /* KeyboardAdapt.swift */; };
+		658AC59F29FC899200109ACB /* PersonalAIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658AC59E29FC899200109ACB /* PersonalAIView.swift */; };
+		658AC5A129FC8A3D00109ACB /* SharedAIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658AC5A029FC8A3D00109ACB /* SharedAIView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		652A51A629FFA8DC001D1E8D /* FriendAIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendAIView.swift; sourceTree = "<group>"; };
+		658AC57D29FC6AD700109ACB /* AI Messages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI Messages.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		658AC58029FC6AD700109ACB /* AI_MessagesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_MessagesApp.swift; sourceTree = "<group>"; };
+		658AC58229FC6AD700109ACB /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		658AC58429FC6AD900109ACB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		658AC58729FC6AD900109ACB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		658AC59429FC6BD000109ACB /* MessageSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageSettings.swift; sourceTree = "<group>"; };
+		658AC59629FC6C1200109ACB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		658AC59829FC6CE000109ACB /* MessageGod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageGod.swift; sourceTree = "<group>"; };
+		658AC59A29FC6EA200109ACB /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		658AC59C29FC7E1800109ACB /* KeyboardAdapt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAdapt.swift; sourceTree = "<group>"; };
+		658AC59E29FC899200109ACB /* PersonalAIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalAIView.swift; sourceTree = "<group>"; };
+		658AC5A029FC8A3D00109ACB /* SharedAIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedAIView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		658AC57A29FC6AD700109ACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658AC59329FC6B9800109ACB /* OpenAISwift in Frameworks */,
+				658AC59029FC6B8300109ACB /* Resolver in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		658AC57429FC6AD700109ACB = {
+			isa = PBXGroup;
+			children = (
+				658AC57F29FC6AD700109ACB /* AI Messages */,
+				658AC57E29FC6AD700109ACB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		658AC57E29FC6AD700109ACB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				658AC57D29FC6AD700109ACB /* AI Messages.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		658AC57F29FC6AD700109ACB /* AI Messages */ = {
+			isa = PBXGroup;
+			children = (
+				658AC58029FC6AD700109ACB /* AI_MessagesApp.swift */,
+				658AC58229FC6AD700109ACB /* MessagesView.swift */,
+				658AC59429FC6BD000109ACB /* MessageSettings.swift */,
+				658AC58429FC6AD900109ACB /* Assets.xcassets */,
+				658AC58629FC6AD900109ACB /* Preview Content */,
+				658AC59629FC6C1200109ACB /* Constants.swift */,
+				658AC59829FC6CE000109ACB /* MessageGod.swift */,
+				658AC59A29FC6EA200109ACB /* MessageView.swift */,
+				658AC59C29FC7E1800109ACB /* KeyboardAdapt.swift */,
+				658AC5A029FC8A3D00109ACB /* SharedAIView.swift */,
+				658AC59E29FC899200109ACB /* PersonalAIView.swift */,
+				652A51A629FFA8DC001D1E8D /* FriendAIView.swift */,
+			);
+			path = "AI Messages";
+			sourceTree = "<group>";
+		};
+		658AC58629FC6AD900109ACB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				658AC58729FC6AD900109ACB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		658AC57C29FC6AD700109ACB /* AI Messages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 658AC58B29FC6AD900109ACB /* Build configuration list for PBXNativeTarget "AI Messages" */;
+			buildPhases = (
+				658AC57929FC6AD700109ACB /* Sources */,
+				658AC57A29FC6AD700109ACB /* Frameworks */,
+				658AC57B29FC6AD700109ACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AI Messages";
+			packageProductDependencies = (
+				658AC58F29FC6B8300109ACB /* Resolver */,
+				658AC59229FC6B9800109ACB /* OpenAISwift */,
+			);
+			productName = "AI Messages";
+			productReference = 658AC57D29FC6AD700109ACB /* AI Messages.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		658AC57529FC6AD700109ACB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					658AC57C29FC6AD700109ACB = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 658AC57829FC6AD700109ACB /* Build configuration list for PBXProject "AI Messages" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 658AC57429FC6AD700109ACB;
+			packageReferences = (
+				658AC58E29FC6B8300109ACB /* XCRemoteSwiftPackageReference "Resolver" */,
+				658AC59129FC6B9800109ACB /* XCRemoteSwiftPackageReference "OpenAISwift" */,
+			);
+			productRefGroup = 658AC57E29FC6AD700109ACB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				658AC57C29FC6AD700109ACB /* AI Messages */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		658AC57B29FC6AD700109ACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658AC58829FC6AD900109ACB /* Preview Assets.xcassets in Resources */,
+				658AC58529FC6AD900109ACB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		658AC57929FC6AD700109ACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658AC59F29FC899200109ACB /* PersonalAIView.swift in Sources */,
+				658AC59B29FC6EA200109ACB /* MessageView.swift in Sources */,
+				658AC58329FC6AD700109ACB /* MessagesView.swift in Sources */,
+				658AC58129FC6AD700109ACB /* AI_MessagesApp.swift in Sources */,
+				658AC59529FC6BD000109ACB /* MessageSettings.swift in Sources */,
+				658AC59D29FC7E1800109ACB /* KeyboardAdapt.swift in Sources */,
+				658AC59929FC6CE000109ACB /* MessageGod.swift in Sources */,
+				658AC5A129FC8A3D00109ACB /* SharedAIView.swift in Sources */,
+				652A51A729FFA8DC001D1E8D /* FriendAIView.swift in Sources */,
+				658AC59729FC6C1200109ACB /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		658AC58929FC6AD900109ACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		658AC58A29FC6AD900109ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		658AC58C29FC6AD900109ACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AI Messages/Preview Content\"";
+				DEVELOPMENT_TEAM = X9KXAF92T9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lizpetrov.AI-Messages";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		658AC58D29FC6AD900109ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AI Messages/Preview Content\"";
+				DEVELOPMENT_TEAM = X9KXAF92T9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lizpetrov.AI-Messages";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		658AC57829FC6AD700109ACB /* Build configuration list for PBXProject "AI Messages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				658AC58929FC6AD900109ACB /* Debug */,
+				658AC58A29FC6AD900109ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		658AC58B29FC6AD900109ACB /* Build configuration list for PBXNativeTarget "AI Messages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				658AC58C29FC6AD900109ACB /* Debug */,
+				658AC58D29FC6AD900109ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		658AC58E29FC6B8300109ACB /* XCRemoteSwiftPackageReference "Resolver" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hmlongco/Resolver";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		658AC59129FC6B9800109ACB /* XCRemoteSwiftPackageReference "OpenAISwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamrushy/OpenAISwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		658AC58F29FC6B8300109ACB /* Resolver */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 658AC58E29FC6B8300109ACB /* XCRemoteSwiftPackageReference "Resolver" */;
+			productName = Resolver;
+		};
+		658AC59229FC6B9800109ACB /* OpenAISwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 658AC59129FC6B9800109ACB /* XCRemoteSwiftPackageReference "OpenAISwift" */;
+			productName = OpenAISwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 658AC57529FC6AD700109ACB /* Project object */;
+}
